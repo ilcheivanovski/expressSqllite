@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Example App</title>
+</head>
+
+<body>
+    <h1>List of users</h1>
+    <hr /> {{!-- This is a handlebars comment and code below outputs HTML from res.render in server.js file --}} {{{body}}}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script type="text/javascript">
+
+        // this method is self called when promiss is returned
+        function userpoll() {
+            $.get("http://localhost:3000/userspoll", function (data, status) {
+                // appends ol list of users
+                users(data.rows);
+            })
+                .always(function () {
+                    //if promisse fails allways will be retried
+                    userpoll();
+                });
+        }
+
+        function users(users) {
+            /// maps the users first name and last name and then appends into new ol list
+            const usersList = users
+                .map((user) => {
+                    return `<li>${user['first_name']} ${user['last_name']}</li>`
+                })
+                .toString()
+                .replace(/,/g, '');
+            $('#user_list').html(usersList);
+        }
+
+        //method called on button click when we want to add user
+        function operacion() {
+            const param1 = document.getElementById("num1").value;
+            const param2 = document.getElementById("num2").value;
+
+            $.ajax({
+                url: "http://localhost:3000/adduser",
+                data: {
+                    first_name: param1,
+                    last_name: param2
+                },
+                error: function (e) {
+                    console.log('Ajax error!')
+                },
+                dataType: 'text',
+                success: function (data) {
+                    document.getElementById("forma1").reset()
+                    console.log('success');
+                },
+                type: 'POST'
+            });
+        }
+
+        userpoll();
+    </script>
+
+</body>
+
+</html>

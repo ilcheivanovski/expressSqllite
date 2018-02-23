@@ -1,0 +1,16 @@
+
+<ul id="user_list">
+    {{!-- In code below "each" interates over the "polls" property and "this.name" refers to the property inside the array of
+    objects --}} {{#each show_polls}}
+    <li>{{this.first_name}} {{this.last_name}}</li>
+    {{/each}}
+</ul>
+
+
+<h1>Add user </h1>
+<form id="forma1">
+    First name
+    <input type="text" id="num1" /> Last name
+    <input type="text" id="num2" />
+    <input type="button" onClick="operacion()" id="enviar" value="Save"></input>
+</form>
