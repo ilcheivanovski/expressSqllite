@@ -1,4 +1,4 @@
 # expressSqllite
 
-Install packages run: npm install in root folder
-Start server with: npm start
+Install packages run: npm install in root folder__
+Start server with: npm start__
