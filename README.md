@@ -5,10 +5,6 @@ The web server should manage list of users persistently.
 The server should provide interface to view list of users. 
 The server should allow to add new user. When new user added , all the web clients should display immediately the added user in the list. 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine. 
-
 ### Installing
 
 Install npm packages
