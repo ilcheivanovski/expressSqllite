@@ -31,7 +31,7 @@ npm start
 ```
 
 ## Dependencies
-
+```
  "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
@@ -40,6 +40,8 @@ npm start
     "nodemon": "^1.15.1",
     "sqlite3": "^3.1.13"
   }
+```
+
 
 ```
 "body-parser": "^1.18.2" - BODY PARSERS URLENCODED/JSON - PARSING AJAX REQUESTS
