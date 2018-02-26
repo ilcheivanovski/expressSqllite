@@ -42,9 +42,9 @@ npm start
   }
 ```
 
-
+## Why ...??
 ```
-"body-parser": "^1.18.2" - BODY PARSERS URLENCODED/JSON - PARSING AJAX REQUESTS
+"body-parser" - It's the most used and actively maintained body parser for express.
 ```
 ```
 "express": "^4.16.2" - Express is a minimal and flexible Node.js web application framework that provides  
@@ -60,31 +60,9 @@ override some functionality of ExpressHandlebars instances.
 poll with subscribe and publish functionality.
 ```
 ```
-"nodemon": "^1.15.1" - Nodemon is a utility that will monitor for any changes in your source and  
-automatically restart your server.
-```
-```
-"sqlite3": "^3.1.13" - SQLite is an in-process library that implements a self-contained, serverless,  
-zero-configuration, transactional SQL database engine.
-```
-## Why ...??
-```
-"body-parser" - It's the most used and actively maintained.
-```
-```
-"express" - I preffer Express because it adds dead simple routing and support for Connect middleware, 
-allowing many extensions and useful features;
-```
-```
-"express-handlebars" - Ability to use Hooks. In this way you can override some functionality of   
-ExpressHandlebars instances;
-```
-```
-"express-longpoll" - Simple module that sets up long poll with subscribe and publish functionality.
-```
-```
 "nodemon" - The most used, stable, monitor for any changes development utility that restart your server.
 ```
 ```
-"sqlite3" - It's the most actively maintained, easy to setup serverless module.
+"sqlite3" - It's the most actively maintained, that implements a self-contained, serverless,  
+zero-configuration, transactional SQL database engine.
 ```
