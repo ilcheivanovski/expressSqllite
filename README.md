@@ -47,18 +47,23 @@ npm start
 "body-parser": "^1.18.2" - BODY PARSERS URLENCODED/JSON - PARSING AJAX REQUESTS
 ```
 ```
-"express": "^4.16.2" - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+"express": "^4.16.2" - Express is a minimal and flexible Node.js web application framework that provides  
+a robust set of features for web and mobile applications.
 ```
 ```
 "express-handlebars": "^3.0.0" - Seems to be the most popular package at the moment. 
-One difference in comparison with other packages is an ability to use Hooks. In this way you can override some functionality of ExpressHandlebars instances. 
+One difference in comparison with other packages is an ability to use Hooks. In this way you can  
+override some functionality of ExpressHandlebars instances. 
 ```
 ```
-"express-longpoll": "0.0.4" - Lightweight long polling module for express.js. Sets up basic long poll with subscribe and publish functionality.
+"express-longpoll": "0.0.4" - Lightweight long polling module for express.js. Sets up basic long  
+poll with subscribe and publish functionality.
 ```
 ```
-"nodemon": "^1.15.1" - Nodemon is a utility that will monitor for any changes in your source and automatically restart your server.
+"nodemon": "^1.15.1" - Nodemon is a utility that will monitor for any changes in your source and  
+automatically restart your server.
 ```
 ```
-"sqlite3": "^3.1.13" - SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
+"sqlite3": "^3.1.13" - SQLite is an in-process library that implements a self-contained, serverless,  
+zero-configuration, transactional SQL database engine.
 ```
