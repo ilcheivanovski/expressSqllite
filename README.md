@@ -68,10 +68,21 @@ automatically restart your server.
 zero-configuration, transactional SQL database engine.
 ```
 ## Why ...??
-"body-parser"
+```
+"body-parser" - It's the most used and actively maintained.
+```
+```
 "express" - I preffer Express because it adds dead simple routing and support for Connect middleware, 
 allowing many extensions and useful features;
+```
 "express-handlebars" - Ability to use Hooks. In this way you can override some functionality of ExpressHandlebars instances;
+```
+```
 "express-longpoll" - Simple module that sets up long poll with subscribe and publish functionality.
+```
+```
 "nodemon" - The most used, stable, monitor for any changes development utility that restart your server.
+```
+```
 "sqlite3" - It's the most actively maintained, easy to setup serverless module.
+```
