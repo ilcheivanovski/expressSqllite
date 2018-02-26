@@ -76,7 +76,8 @@ zero-configuration, transactional SQL database engine.
 allowing many extensions and useful features;
 ```
 ```
-"express-handlebars" - Ability to use Hooks. In this way you can override some functionality of ExpressHandlebars instances;
+"express-handlebars" - Ability to use Hooks. In this way you can override some functionality of   
+ExpressHandlebars instances;
 ```
 ```
 "express-longpoll" - Simple module that sets up long poll with subscribe and publish functionality.
