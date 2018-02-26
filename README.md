@@ -1,9 +1,9 @@
 # Express server with sqlite3 
 
-Implement web server in nodejs using your favorite HTTP framework and sqlite DB. 
-The web server should manage list of users persistently.  
-The server should provide interface to view list of users. 
-The server should allow to add new user. When new user added , all the web clients should display immediately the added user in the list. 
+Implement web server in nodejs using express server. 
+The web server manage list of users persistently.  
+The server provide interface to view list of users. 
+The server allow to add new user. When new user added , all the web clients display immediately the added user in the list. 
 
 ### Installing
 
